@@ -1,0 +1,132 @@
+<div class="page-content"> 
+    <!-- BEGIN PAGE CONTAINER-->
+    <div class="container-fluid"> 
+      <!-- BEGIN PAGE HEADER-->
+      <div class="row-fluid">
+        <div class="span12">
+          <h3 class="page-title"> Web User View <small>View/Add/Edit/Delete</small> </h3>
+          <ul class="breadcrumb">
+            <li> <i class="icon-user"></i> <a href="admusers">View Web Users</a> <span class="icon-angle-right"></span> </li>
+            <li> <a href="">View User Info</a> </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END PAGE HEADER--> 
+      <!-- BEGIN PAGE CONTENT-->
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="tabbable tabbable-custom boxless">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab_1" data-toggle="tab">Web User</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab_1">
+                <div class="portlet box blue">
+                  <div class="portlet-title">
+                    <h4><i class="icon-reorder"></i>User Info</h4>
+                    <div class="tools"> <a href="javascript:;" class="collapse"></a> </div>
+                  </div>
+                  <div class="portlet-body form">
+                    {{#if error}}
+                        <div class="alert alert-error"><button class="close" data-dismiss="alert"></button>{{error}}</div>
+                    {{/if}}
+                    {{#if success}}
+                        <div class="alert alert-success"><button class="close" data-dismiss="alert"></button>{{success}}</div>
+                    {{/if}}
+                    <div class="alert alert-error hide">
+                      <button class="close" data-dismiss="alert"></button>
+                      <span id="err_msg"></span> </div>
+                    <div class="alert alert-success hide">
+                      <button class="close" data-dismiss="alert"></button>
+                      <span id="suc_msg"></span> </div>
+                    <!-- BEGIN FORM-->
+                    <div class="form-horizontal form-view">
+                      <div class="text-right"><a href="orders?usr={{data.admid}}" class="btn red-stripe" title="View Orders"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Orders</a></div>
+                      <h3 class="form-section">Personal Info</h3>
+                      <div class="row-fluid">
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Full Name:</label>
+                            <div class="controls"> <span class="text bold">{{data.name}}</span> </div>
+                          </div>
+                        </div>
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Email:</label>
+                            <div class="controls"> <span class="text bold"><a href="mailto:{{data.email}}">{{data.email}}</a></span> </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-fluid">
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Phone No:</label>
+                            <div class="controls"> <span class="text bold">{{data.phone}}</span> </div>
+                          </div>
+                        </div>
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Address:</label>
+                            <div class="controls"> <span class="text bold">{{data.address}}</span> </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-fluid">
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">City:</label>
+                            <div class="controls"> <span class="text bold">{{data.city}}</span> </div>
+                          </div>
+                        </div>
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">State:</label>
+                            <div class="controls"> <span class="text bold">{{data.state}}</span> </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-fluid">
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Country:</label>
+                            <div class="controls"> <span class="text bold">{{data.country}}</span> </div>
+                          </div>
+                        </div>
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Zip Code:</label>
+                            <div class="controls"> <span class="text bold">{{data.zipcode}}</span> </div>
+                          </div>
+                        </div>
+                      </div>
+                      <h3 class="form-section">System Info</h3>
+                      <div class="row-fluid">
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Created DateTime:</label>
+                            <div class="controls"> <span id="crtdate" class="text bold">{{data.creation_date}}</span> </div>
+                          </div>
+                        </div>
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">User Status:</label>
+                            <div class="controls"> <span id="userstatus" class="text bold hand">{{#ifCond data.status '==' 0}}<a onclick="ChangeStatus('{{data.admid}}', 0)"><span class="label label-success"><i class='fa fa-check' aria-hidden='true'></i> Approved</span></a>{{else}}<a onclick="ChangeStatus('{{data.admid}}', 1)"><span class="label label-warning"><i class='fa fa-pause' aria-hidden='true'></i> Suspended</span></a>{{/ifCond}}</span> </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-actions">
+                        <button type="button" class="btn" onclick="window.location.href='admusers'">Back</button>
+                      </div>
+                    </div>
+                    <!-- END FORM--> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END PAGE CONTENT--> 
+    </div>
+    <!-- END PAGE CONTAINER--> 
+  </div>

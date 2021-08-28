@@ -1,0 +1,899 @@
+DATE:	Sun Aug 22 2021 01:41:32
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:34
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d11sm388245edx.51 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d11sm388245edx.51 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d11sm388245edx.51 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d11sm388245edx.51 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:35
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s18sm4739448ejc.52 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials s18sm4739448ejc.52 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials s18sm4739448ejc.52 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials s18sm4739448ejc.52 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:36
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:36
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:37
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j14sm6116135edk.7 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j14sm6116135edk.7 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j14sm6116135edk.7 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j14sm6116135edk.7 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:37
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:37
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:37
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23sm6018275edr.42 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23sm6018275edr.42 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23sm6018275edr.42 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23sm6018275edr.42 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:38
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23sm6018303edr.42 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23sm6018303edr.42 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23sm6018303edr.42 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u23sm6018303edr.42 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:41:38
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o17sm5807753edc.58 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials o17sm5807753edc.58 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials o17sm5807753edc.58 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials o17sm5807753edc.58 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:42:21
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:42:21
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:42:23
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v13sm4803957ejx.24 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials v13sm4803957ejx.24 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials v13sm4803957ejx.24 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials v13sm4803957ejx.24 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:42:23
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6108865edv.1 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6108865edv.1 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6108865edv.1 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6108865edv.1 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:42:24
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:42:24
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:42:25
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r6sm6008027edq.20 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r6sm6008027edq.20 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r6sm6008027edq.20 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r6sm6008027edq.20 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:42:25
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v9sm4822435ejk.82 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials v9sm4822435ejk.82 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials v9sm4822435ejk.82 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials v9sm4822435ejk.82 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:44:03
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:44:03
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:44:05
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials z6sm5839183edc.52 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials z6sm5839183edc.52 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials z6sm5839183edc.52 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials z6sm5839183edc.52 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:44:05
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11sm4765634ejy.112 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11sm4765634ejy.112 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11sm4765634ejy.112 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11sm4765634ejy.112 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:44:09
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:44:09
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:44:10
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u17sm2662873ejt.39 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u17sm2662873ejt.39 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u17sm2662873ejt.39 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u17sm2662873ejt.39 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:44:10
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bf15sm5989446edb.83 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bf15sm5989446edb.83 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bf15sm5989446edb.83 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bf15sm5989446edb.83 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:45:15
+ERROR:	TypeError: doc.forEach is not a function
+STACK:	{"stack":"TypeError: doc.forEach is not a function\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"doc.forEach is not a function"}
+NOTE:	getAllOrders.getOrders
+IP:	::ffff:127.0.0.1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:45:15
+ERROR:	TypeError: Cannot read property 'forEach' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'forEach' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:43:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'forEach' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::ffff:127.0.0.1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:45:18
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o6sm316757eju.91 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials o6sm316757eju.91 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials o6sm316757eju.91 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials o6sm316757eju.91 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:45:18
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r20sm4800764ejz.120 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r20sm4800764ejz.120 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r20sm4800764ejz.120 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r20sm4800764ejz.120 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:47:30
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:47:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:47:30
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:47:32
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l16sm4777047eje.67 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l16sm4777047eje.67 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l16sm4777047eje.67 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l16sm4777047eje.67 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:47:32
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d3sm2134741ejw.18 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d3sm2134741ejw.18 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d3sm2134741ejw.18 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d3sm2134741ejw.18 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:49:30
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:47:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:49:30
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:49:31
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials gj26sm4784451ejb.83 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials gj26sm4784451ejb.83 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials gj26sm4784451ejb.83 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials gj26sm4784451ejb.83 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:49:31
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11sm4770947ejy.112 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11sm4770947ejy.112 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11sm4770947ejy.112 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j11sm4770947ejy.112 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:51:31
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:47:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:51:31
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:51:32
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials jx22sm4733021ejb.80 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials jx22sm4733021ejb.80 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials jx22sm4733021ejb.80 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials jx22sm4733021ejb.80 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:51:32
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q5sm6020581edt.50 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q5sm6020581edt.50 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q5sm6020581edt.50 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q5sm6020581edt.50 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:53:31
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:47:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:53:31
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:53:33
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials oy11sm1623969ejb.104 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials oy11sm1623969ejb.104 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials oy11sm1623969ejb.104 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials oy11sm1623969ejb.104 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:53:33
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r16sm5948275edp.61 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r16sm5948275edp.61 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r16sm5948275edp.61 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r16sm5948275edp.61 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:55:36
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:47:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:55:36
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:55:37
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6125415edv.1 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6125415edv.1 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6125415edv.1 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6125415edv.1 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 01:55:38
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p23sm5936744edt.71 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p23sm5936744edt.71 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p23sm5936744edt.71 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p23sm5936744edt.71 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 02:00:02
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:47:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 02:00:02
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:45:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 02:00:10
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u9sm6024070edt.60 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u9sm6024070edt.60 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u9sm6024070edt.60 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u9sm6024070edt.60 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 02:00:15
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r2sm6053766edv.78 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r2sm6053766edv.78 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r2sm6053766edv.78 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r2sm6053766edv.78 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 02:00:52
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:48:26\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:46:20\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllOrders.getOrders
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 02:00:57
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r16sm5957634edp.61 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r16sm5957634edp.61 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r16sm5957634edp.61 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials r16sm5957634edp.61 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:04:43
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:53:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:04:43
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:53:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:04:45
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:53:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:04:45
+ERROR:	ReferenceError: endecode is not defined
+STACK:	{"stack":"ReferenceError: endecode is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:24\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:53:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"endecode is not defined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:04:48
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q5sm6182540edt.50 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q5sm6182540edt.50 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q5sm6182540edt.50 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q5sm6182540edt.50 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:04:48
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n10sm4984008ejk.86 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials n10sm4984008ejk.86 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials n10sm4984008ejk.86 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials n10sm4984008ejk.86 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:04:49
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p3sm5095675ejy.20 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p3sm5095675ejy.20 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p3sm5095675ejy.20 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p3sm5095675ejy.20 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:04:49
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials gb23sm4785242ejc.119 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials gb23sm4785242ejc.119 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials gb23sm4785242ejc.119 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials gb23sm4785242ejc.119 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:05:24
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:56:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:54:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::ffff:127.0.0.1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:05:24
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:54:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::ffff:127.0.0.1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:05:31
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g16sm4866071ejw.74 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials g16sm4866071ejw.74 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials g16sm4866071ejw.74 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials g16sm4866071ejw.74 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:05:33
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x9sm3998717edj.95 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials x9sm3998717edj.95 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials x9sm3998717edj.95 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials x9sm3998717edj.95 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:06:35
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:56:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:54:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:06:35
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:54:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:06:37
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bx14sm1600013edb.93 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bx14sm1600013edb.93 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bx14sm1600013edb.93 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bx14sm1600013edb.93 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:06:37
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l23sm1108834eds.29 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l23sm1108834eds.29 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l23sm1108834eds.29 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l23sm1108834eds.29 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:08:59
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:56:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:54:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:08:59
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:54:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:05
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e7sm6454019edk.3 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials e7sm6454019edk.3 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials e7sm6454019edk.3 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials e7sm6454019edk.3 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:07
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials fl2sm4869829ejc.114 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials fl2sm4869829ejc.114 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials fl2sm4869829ejc.114 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials fl2sm4869829ejc.114 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:32
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:32
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:32
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::ffff:127.0.0.1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:32
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::ffff:127.0.0.1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:35
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:35
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:37
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:37
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:38
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials um4sm4935088ejb.92 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials um4sm4935088ejb.92 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials um4sm4935088ejb.92 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials um4sm4935088ejb.92 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:39
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bs13sm4894416ejb.98 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bs13sm4894416ejb.98 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bs13sm4894416ejb.98 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bs13sm4894416ejb.98 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:39
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q12sm1385561edw.81 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q12sm1385561edw.81 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q12sm1385561edw.81 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q12sm1385561edw.81 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:39
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials dv8sm4883845ejb.93 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials dv8sm4883845ejb.93 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials dv8sm4883845ejb.93 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials dv8sm4883845ejb.93 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:41
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b5sm4910767ejq.56 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b5sm4910767ejq.56 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b5sm4910767ejq.56 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b5sm4910767ejq.56 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:41
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u20sm4950699ejz.87 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u20sm4950699ejz.87 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u20sm4950699ejz.87 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u20sm4950699ejz.87 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:41
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n15sm6132873edw.70 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials n15sm6132873edw.70 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials n15sm6132873edw.70 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials n15sm6132873edw.70 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:09:42
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6289735edv.1 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6289735edv.1 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6289735edv.1 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10sm6289735edv.1 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:11:37
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:11:37
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:11:41
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm6111557edd.33 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm6111557edd.33 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm6111557edd.33 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm6111557edd.33 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:11:41
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ee29sm6160499edb.63 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ee29sm6160499edb.63 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ee29sm6160499edb.63 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials ee29sm6160499edb.63 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:11:42
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:11:42
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:11:44
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w5sm5004294ejz.25 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials w5sm5004294ejz.25 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials w5sm5004294ejz.25 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials w5sm5004294ejz.25 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 04:11:46
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials p23sm6289756edw.94 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p23sm6289756edw.94 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p23sm6289756edw.94 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials p23sm6289756edw.94 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 15:27:12
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 15:27:12
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 15:27:14
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l19sm6711738edb.86 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l19sm6711738edb.86 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l19sm6711738edb.86 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l19sm6711738edb.86 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 15:27:14
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm6938344edd.33 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm6938344edd.33 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm6938344edd.33 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm6938344edd.33 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:27:09
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:27:09
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:27:09
+ERROR:	 Email Not Sent. Error: connect ENETUNREACH 108.177.119.109:465
+STACK:	{"stack":"Error: connect ENETUNREACH 108.177.119.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)","message":"connect ENETUNREACH 108.177.119.109:465","errno":"ENETUNREACH","code":"ESOCKET","syscall":"connect","address":"108.177.119.109","port":465,"command":"CONN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:27:09
+ERROR:	 Email Not Sent. Error: connect ENETUNREACH 108.177.119.109:465
+STACK:	{"stack":"Error: connect ENETUNREACH 108.177.119.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)","message":"connect ENETUNREACH 108.177.119.109:465","errno":"ENETUNREACH","code":"ESOCKET","syscall":"connect","address":"108.177.119.109","port":465,"command":"CONN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:30:17
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:30:17
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:30:22
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l9sm7179096edt.55 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l9sm7179096edt.55 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l9sm7179096edt.55 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l9sm7179096edt.55 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:30:22
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y23sm5597754ejp.115 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials y23sm5597754ejp.115 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials y23sm5597754ejp.115 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials y23sm5597754ejp.115 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:31:08
+ERROR:	TypeError: Cannot read property 'toString' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'toString' of undefined\n    at Object.encryptstr (C:\\Users\\pc\\programs\\adminSC\\config\\endecode.js:8:40)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:57:33\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:18\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:266:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'toString' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:31:08
+ERROR:	TypeError: Cannot read property 'docs' of undefined
+STACK:	{"stack":"TypeError: Cannot read property 'docs' of undefined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\product\\helpers\\getAllProducts.js:55:13\n    at C:\\Users\\pc\\programs\\adminSC\\node_modules\\mongoose-paginate-v2\\dist\\index.js:268:34\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","message":"Cannot read property 'docs' of undefined"}
+NOTE:	getAllProducts.getProducts
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:31:09
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d19sm5574520ejj.122 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d19sm5574520ejj.122 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d19sm5574520ejj.122 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d19sm5574520ejj.122 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:31:09
+ERROR:	 Email Not Sent. Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials fl2sm5585571ejc.114 - gsmtp
+STACK:	{"stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials fl2sm5585571ejc.114 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1513:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:540:26)\n    at SMTPConnection._processResponse (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:932:20)\n    at SMTPConnection._onData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:739:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\pc\\programs\\adminSC\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:189:44)\n    at TLSSocket.emit (events.js:314:20)\n    at addChunk (_stream_readable.js:298:12)\n    at readableAddChunk (_stream_readable.js:273:9)\n    at TLSSocket.Readable.push (_stream_readable.js:214:10)\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)","message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials fl2sm5585571ejc.114 - gsmtp","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials fl2sm5585571ejc.114 - gsmtp","responseCode":535,"command":"AUTH PLAIN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:57:23
+ERROR:	ReferenceError: item is not defined
+STACK:	{"stack":"ReferenceError: item is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:164:3\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async C:\\Users\\pc\\programs\\adminSC\\routes\\index.js:706:19","message":"item is not defined"}
+NOTE:	getAllOrders.getOrderById
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 16:57:59
+ERROR:	 Email Not Sent. Error: connect ETIMEDOUT 2a00:1450:4013:c08::6c:465
+STACK:	{"stack":"Error: connect ETIMEDOUT 2a00:1450:4013:c08::6c:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)","message":"connect ETIMEDOUT 2a00:1450:4013:c08::6c:465","errno":"ETIMEDOUT","code":"ESOCKET","syscall":"connect","address":"2a00:1450:4013:c08::6c","port":465,"command":"CONN"}
+NOTE:	utils.SendEmail
+------------------------------------------------------------------------------------------------------------
+
+DATE:	Sun Aug 22 2021 17:00:29
+ERROR:	ReferenceError: item is not defined
+STACK:	{"stack":"ReferenceError: item is not defined\n    at C:\\Users\\pc\\programs\\adminSC\\controllers\\order\\helpers\\getAllOrders.js:164:3\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async C:\\Users\\pc\\programs\\adminSC\\routes\\index.js:706:19","message":"item is not defined"}
+NOTE:	getAllOrders.getOrderById
+IP:	::1
+USER:	admin
+------------------------------------------------------------------------------------------------------------
+

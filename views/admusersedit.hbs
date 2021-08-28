@@ -1,0 +1,109 @@
+<div class="page-content"> 
+    <!-- BEGIN PAGE CONTAINER-->
+    <div class="container-fluid"> 
+      <!-- BEGIN PAGE HEADER-->
+      <div class="row-fluid">
+        <div class="span12">
+          <h3 class="page-title"> Admin Users <small>View/Add/Edit/Delete</small> </h3>
+          <ul class="breadcrumb">
+            <li> <i class="icon-user"></i> <a href="admusersview">View Users</a> <span class="icon-angle-right"></span> </li>
+            <li> <a href="">{{heading}} User
+              {{!-- <?php if(isset($_GET["usr"])) { echo "Update User"; } else { echo "Add User"; } ?> --}}
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END PAGE HEADER--> 
+      <!-- BEGIN PAGE CONTENT-->
+      <div class="row-fluid">
+        <div class="span12"> 
+          <!-- BEGIN VALIDATION STATES-->
+          <div class="portlet box purple">
+            <div class="portlet-title">
+              <h4><i class="icon-reorder"></i>Admin Users</h4>
+              <div class="tools"> <a href="javascript:;" class="collapse"></a> </div>
+            </div>
+            <div class="portlet-body form">
+              <!-- BEGIN FORM-->
+              <form id="frmadmusers" action="/useradm" class="form-horizontal" method="post" onSubmit="return Validate();">
+              <input id="dataid" name="dataid" type="hidden" value="{{data.admid}}" />
+              {{!-- <input id="_id" name="_id" type="hidden" value="5fcd16d03b23b53c78d4ce44" /> --}}
+              {{#if error}}
+                  <div class="alert alert-error"><button class="close" data-dismiss="alert"></button>{{error}}</div>
+              {{/if}}
+              {{#if success}}
+                  <div class="alert alert-success"><button class="close" data-dismiss="alert"></button>{{success}}</div>
+              {{/if}}
+                {{!-- <?php if ($message!="") { echo '<div class="alert alert-error"><button class="close" data-dismiss="alert"></button>'.$message.'</div>';} ?> --}}
+                <div id="dvadmtype" class="control-group">
+                  <label class="control-label">Type<span class="required">*</span></label>
+                  <div class="controls">
+                    <select id="admtype" name="admtype" class="span6 m-wrap vlditm">
+                      {{#each items as |item|}}  
+                         <option value="{{item.rlid}}" {{#ifCond item.rlid '==' ../data.enctype}} selected="selected" {{/ifCond}}>{{item.name}}</option>
+                      {{/each}}
+                    </select>
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvusername" class="control-group">
+                  <label class="control-label">User Name<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="username" name="username" type="text" class="span6 m-wrap vlditm" value="{{data.username}}" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvpassword" class="control-group">
+                  <label class="control-label">Password<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="password" name="password" type="password" class="span6 m-wrap vlditm" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvname" class="control-group">
+                  <label class="control-label">Name<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="name" name="name" type="text" class="span6 m-wrap vlditm" value="{{data.name}}" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvemail" class="control-group">
+                  <label class="control-label">Email</label>
+                  <div class="controls">
+                    <input id="email" name="email" type="text" class="span6 m-wrap vlditm" value="{{data.email}}" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvphone" class="control-group">
+                  <label class="control-label">Phone Number</label>
+                  <div class="controls">
+                    <input id="phone" name="phone" type="text" class="span6 m-wrap" value="{{data.phone}}" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+					   {{!-- if(isset($_GET["usr"])) { ?> --}}
+                <div id="dvstatus" class="control-group">
+                  <label class="control-label">Status<span class="required">*</span></label>
+                  <div class="controls">
+                    <select id="status" name="status" class="span6 m-wrap vlditm">
+                      <option value="0" {{#ifCond data.status '==' 0}} selected="selected" {{/ifCond}}>Approved</option>
+                      <option value="1" {{#ifCond data.status '==' 1}} selected="selected" {{/ifCond}}>Suspended</option>
+                    </select>
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn purple">{{heading}}</button>
+                  <button type="button" class="btn" onclick="window.location.href='admusers'">Back</button>
+                </div>
+              </form>
+              <!-- END FORM--> 
+            </div>
+          </div>
+          <!-- END VALIDATION STATES--> 
+        </div>
+      </div>
+      <!-- END PAGE CONTENT--> 
+    </div>
+    <!-- END PAGE CONTAINER--> 
+  </div>

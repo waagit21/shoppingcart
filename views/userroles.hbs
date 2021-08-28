@@ -1,0 +1,79 @@
+<div class="page-content"> 
+    <!-- BEGIN PAGE CONTAINER-->
+    <div class="container-fluid"> 
+      <!-- BEGIN PAGE HEADER-->
+      <div class="row-fluid">
+        <div class="span12">
+          <h3 class="page-title"> Admin Users Roles <small>View</small> </h3>
+          <ul class="breadcrumb">
+            <li> <i class="icon-user"></i> <a href="">View Users Roles</a> </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END PAGE HEADER--> 
+      <!-- BEGIN PAGE CONTENT-->
+      <div class="row-fluid">
+        <div class="span12"> 
+          <!-- BEGIN EXAMPLE TABLE PORTLET-->
+          <div class="portlet box blue">
+            <div class="portlet-title">
+              <h4><i class="icon-reorder"></i>Admin Users Roles</h4>
+              <div class="tools"> <a href="javascript:;" class="collapse"></a> </div>
+            </div>
+            <div class="portlet-body">
+              {{#if error}}
+                  <div class="alert alert-error"><button class="close" data-dismiss="alert"></button>{{error}}</div>
+              {{/if}}
+              {{#if success}}
+                  <div class="alert alert-success"><button class="close" data-dismiss="alert"></button>{{success}}</div>
+              {{/if}}
+              <div class="clearfix">
+                <div class="btn-group pull-right">
+                  <button class="btn dropdown-toggle" data-toggle="dropdown">Tools <i class="icon-angle-down"></i> </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Print</a></li>
+                    <li><a href="#">Save as PDF</a></li>
+                    <li><a href="#">Export to Excel</a></li>
+                  </ul>
+                </div>
+              </div>
+              {{!-- {{items.[0].name }}<br />
+
+           
+ <ul>
+  {{#each items as |val|}}
+  <li><b>Hello, {{val}}! You're  {{index}} in line {{val.name}}</b></li>
+  {{#each val as |person index|}}
+    <li>Hello, {{person.name}}!  You're number {{index}} in  {{person.roles}}</li>
+  {{/each}}<br /><br />
+    {{/each}}
+</ul>  --}}
+              <table class="table table-striped table-hover table-bordered" id="webusers">
+                <thead>
+                  <tr>
+                    <th class="none">Id</th>
+                    <th>Name</th>
+                    <th>Detail</th>
+                  </tr>
+                </thead>
+                <tbody>                  
+                {{#each items as |item|}}             
+                      <tr class="" data-uid="{{@index}}">
+                        <td class="none">{{item.rlid}}</td>
+                        <td><span style="color:{{item.color}}">{{item.name}}</span></td>
+                        <td>{{item.role}}</td>
+                      </tr>
+                {{/each}}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- END EXAMPLE TABLE PORTLET--> 
+        </div>
+      </div>
+      <!-- END PAGE CONTENT--> 
+    </div>
+    <!-- END PAGE CONTAINER--> 
+  </div>
+
+

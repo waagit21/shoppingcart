@@ -1,0 +1,138 @@
+<div class="page-content"> 
+    <!-- BEGIN PAGE CONTAINER-->
+    <div class="container-fluid"> 
+      <!-- BEGIN PAGE HEADER-->
+      <div class="row-fluid">
+        <div class="span12">
+          <h3 class="page-title"> Orders View <small>View/Add/Edit/Delete</small> </h3>
+          <ul class="breadcrumb">
+            <li> <i class="icon-user"></i> <a href="orders">View Orders</a> <span class="icon-angle-right"></span> </li>
+            <li> <a href="">View Order Info</a> </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END PAGE HEADER--> 
+      <!-- BEGIN PAGE CONTENT-->
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="tabbable tabbable-custom boxless">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab_1" data-toggle="tab">Order</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab_1">
+                <div class="portlet box blue">
+                  <div class="portlet-title">
+                    <h4><i class="icon-reorder"></i>Order Info</h4>
+                    <div class="tools"> <a href="javascript:;" class="collapse"></a> </div>
+                  </div>
+                  <div class="portlet-body form">
+                    {{#if error}}
+                        <div class="alert alert-error"><button class="close" data-dismiss="alert"></button>{{error}}</div>
+                    {{/if}}
+                    {{#if success}}
+                        <div class="alert alert-success"><button class="close" data-dismiss="alert"></button>{{success}}</div>
+                    {{/if}}
+                    <div class="alert alert-error hide">
+                      <button class="close" data-dismiss="alert"></button>
+                      <span id="err_msg"></span> </div>
+                    <div class="alert alert-success hide">
+                      <button class="close" data-dismiss="alert"></button>
+                      <span id="suc_msg"></span> </div>
+                    <!-- BEGIN FORM-->
+                    <div class="form-horizontal form-view">
+                      <div class="text-right"><a href="webusersview?id={{data.webid}}" class="btn red-stripe" title="View User"><i class="fa fa-user" aria-hidden="true"></i> User</a> &nbsp; <a href="ordersedit?id={{data._id}}" class="btn purple" title="Edit"><i class="icon-edit"></i> Update</a></div>
+                      <h3 class="form-section">Order Info</h3>
+                      <div class="row-fluid">
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Order Number:</label>
+                            <div class="controls"> <span class="text bold">{{data.order_number}}</span> </div>
+                          </div>
+                        </div>
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">User Name:</label>
+                            <div class="controls"> <span class="text bold"><a href="webusersview?id={{data.webid}}" class="btn mini red-stripe" title="View User">{{data.user_name}}</a></span> </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-fluid">                        
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Created DateTime:</label>
+                            <div class="controls"> <span id="crtdate" class="text bold">{{data.creation_date}}</span> </div>
+                          </div>
+                        </div>
+                        <div class="span6 ">
+                          <div class="control-group">
+                            <label class="control-label">Status:</label>
+                            <div class="controls"> <span id="thisstatus" class="text bold hand">{{#ifCond data.status '==' 0}}<a onclick="ChangeStatus('{{data._id}}', 0)"><span class="label label-success"><i class='fa fa-check' aria-hidden='true'></i> Approved</span></a>{{else}}<a onclick="ChangeStatus('{{data._id}}', 1)"><span class="label label-warning"><i class='fa fa-pause' aria-hidden='true'></i> Suspended</span></a>{{/ifCond}}</span> </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-fluid">                        
+                        <div class="span12 ">
+                          &nbsp;
+                        </div>
+                      </div>
+                      <div class="row-fluid">
+                        <div class="span1"></div>
+                        <div class="span10">
+                          <div class="portlet box red">
+                            <div class="portlet-title">
+                              <h4><i class="icon-cogs"></i>Products</h4>
+                            </div>
+                            <div class="portlet-body">
+                              <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th class="hidden-480">Discount</th>
+                                    <th class="hidden-480">Quantity</th>
+                                    <th>Total</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  {{#each data.products as |item|}}
+                                    <tr class="" data-uid="{{item._id}}">
+                                      <td>{{@index}}</td>
+                                      <td>{{item.name}}</td>
+                                      <td>{{../data.currency}} {{item.price}}</td>
+                                      <td class="hidden-480">{{item.discount}}%</td>
+                                      <td class="hidden-480">{{item.quantity}}</td>
+                                      <td>{{../data.currency}} {{item.total}}</td>
+                                    </tr>
+                                  {{/each}}
+                                    <tr class="">
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td class="hidden-480"></td>
+                                      <td class="hidden-480"></td>
+                                      <td><strong>{{data.currency}} {{data.amount}}</strong></td>
+                                    </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-actions">
+                        <button type="button" class="btn" onclick="window.location.href='admusers'">Back</button>
+                      </div>
+                    </div>
+                    <!-- END FORM--> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END PAGE CONTENT--> 
+    </div>
+    <!-- END PAGE CONTAINER--> 
+  </div>

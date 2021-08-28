@@ -1,0 +1,147 @@
+<link href="assets/css/formstyle.css" rel="stylesheet" />
+<div class="page-content"> 
+    <!-- BEGIN PAGE CONTAINER-->
+    <div class="container-fluid"> 
+      <!-- BEGIN PAGE HEADER-->
+      <div class="row-fluid">
+        <div class="span12">
+          <h3 class="page-title"> Products <small>View/Add/Edit/Delete</small> </h3>
+          <ul class="breadcrumb">
+            <li> <i class="icon-user"></i> <a href="products">View Products</a> <span class="icon-angle-right"></span> </li>
+            <li> <a href="">{{heading}} Product
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END PAGE HEADER--> 
+      <!-- BEGIN PAGE CONTENT-->
+      <div class="row-fluid">
+        <div class="span12"> 
+          <!-- BEGIN VALIDATION STATES-->
+          <div class="portlet box purple">
+            <div class="portlet-title">
+              <h4><i class="icon-reorder"></i>Products</h4>
+              <div class="tools"> <a href="javascript:;" class="collapse"></a> </div>
+            </div>
+            <div class="portlet-body form">
+              <!-- BEGIN FORM-->
+              <form id="frmproduct" action="/updproduct" class="form-horizontal" method="post" enctype="multipart/form-data" onSubmit="return Validate();">
+              <input id="dataid" name="dataid" type="hidden" value="{{data._id}}" />
+              {{!-- <input id="_id" name="_id" type="hidden" value="5fcd16d03b23b53c78d4ce44" /> --}}
+              {{#if error}}
+                  <div class="alert alert-error"><button class="close" data-dismiss="alert"></button>{{error}}</div>
+              {{/if}}
+              {{#if success}}
+                  <div class="alert alert-success"><button class="close" data-dismiss="alert"></button>{{success}}</div>
+              {{/if}}
+                <div id="dvname" class="control-group">
+                  <label class="control-label">Name<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="name" name="name" type="text" class="span6 m-wrap vlditm" value="{{data.name}}" placeholder="Name" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvcategory" class="control-group">
+                  <label class="control-label">Category<span class="required">*</span></label>
+                  <div class="controls">
+                    <select id="category" name="category" class="span6 m-wrap vlditm">  
+                      {{#each bsdata.categories as |item|}}  
+                         <option value="{{item}}" {{#ifCond item '==' ../data.category}} selected="selected" {{/ifCond}}>{{item}}</option>
+                      {{/each}}  
+                    </select>
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvprice" class="control-group">
+                  <label class="control-label">Price<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="price" name="price" type="text" class="span6 m-wrap vlditm" value="{{data.price}}" placeholder="Price" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvcurrency" class="control-group">
+                  <label class="control-label">Currency<span class="required">*</span></label>
+                  <div class="controls">
+                    <select id="currency" name="currency" class="span6 m-wrap vlditm">  
+                      {{#each bsdata.currencies as |item|}}  
+                         <option value="{{item.[0]}}" {{#ifCond item.[0] '==' ../data.currency}} selected="selected" {{/ifCond}}>{{item.[0]}}</option>
+                      {{/each}}  
+                    </select>
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvdiscount" class="control-group">
+                  <label class="control-label">Discount<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="discount" name="discount" type="text" class="span6 m-wrap vlditm" value="{{data.discount}}" placeholder="Discount" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvquantity" class="control-group">
+                  <label class="control-label">Quantity<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="quantity" name="quantity" type="number" class="span6 m-wrap vlditm" value="{{data.quantity}}" placeholder="Quantity" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvoverview" class="control-group">
+                  <label class="control-label">Overview<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="overview" name="overview" type="text" class="span6 m-wrap vlditm" value="{{data.overview}}" placeholder="Overview" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div id="dvdetail" class="control-group">
+                  <label class="control-label">Detail<span class="required">*</span></label>
+                  <div class="controls">
+                    <input id="detail" name="detail" type="text" class="span6 m-wrap vlditm" value="{{data.detail}}" placeholder="Detail" />
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                {{#ifCond heading '==' "Add"}}            
+                <div id="dvimages" class="control-group">
+                  <label class="control-label">Images</label>
+                  <div class="controls">
+                    <span class="span6">
+                       <input id="images" name="images" type="file" class="default" multiple />            
+                    </span>
+                    <span class="help-inline"></span>
+                  </div>
+                </div> 
+                {{else}}
+                <div id="dvimages" class="control-group">
+                  <label class="control-label">Images</label>
+                  <div class="controls">
+                    <span class="span6">
+                       {{#each data.images as |item|}}
+                         <img src="uploads/{{item}}" width="200" height="200" />&emsp;
+                       {{/each}}           
+                    </span>
+                  </div>
+                </div> 
+                {{/ifCond}}
+                <div id="dvstatus" class="control-group">
+                  <label class="control-label">Status<span class="required">*</span></label>
+                  <div class="controls">
+                    <select id="status" name="status" class="span6 m-wrap vlditm">
+                      <option value="0" {{#ifCond data.status '==' 0}} selected="selected" {{/ifCond}}>Approved</option>
+                      <option value="1" {{#ifCond data.status '==' 1}} selected="selected" {{/ifCond}}>Suspended</option>
+                    </select>
+                    <span class="help-inline"></span>
+                  </div>
+                </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn purple">{{heading}}</button>
+                  <button type="button" class="btn" onclick="window.location.href='admusers'">Back</button>
+                </div>
+              </form>
+              <!-- END FORM--> 
+            </div>
+          </div>
+          <!-- END VALIDATION STATES--> 
+        </div>
+      </div>
+      <!-- END PAGE CONTENT--> 
+    </div>
+    <!-- END PAGE CONTAINER--> 
+  </div>

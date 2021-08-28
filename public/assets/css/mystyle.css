@@ -1,0 +1,201 @@
+.none{
+	display:none;
+}
+.hand{
+	cursor: pointer;
+}
+
+
+
+.header .navbar-inner {
+    height: 42px !important;
+}
+body {
+    background-color: #3d3d3d !important;
+}
+.fixed-top .page-container {
+    margin-top: 42px;
+}
+
+.page-sidebar > ul > li > a {
+    border-top: 1px solid #595959 !important;
+    color: #fff !important;
+}
+.page-sidebar > ul > li.active > a i {
+    color: #fff;
+}
+/*.page-sidebar > ul > li > a i {
+     color: #fff !important; 
+}*/
+.page-sidebar > ul > li > ul > a:hover {
+    background: #4b4b4b !important;
+	color: #fff !important; 
+}
+.page-sidebar > ul > li.has-sub.open >a, .page-sidebar > ul > li >a:hover, .page-sidebar > ul > li:hover>a {
+    background: #313131 !important; 
+}
+
+.page-sidebar > ul > li > ul.sub {
+    display: none;
+    list-style: none;
+    clear: both;
+    margin: 8px 0px 8px 0px;
+}
+.page-sidebar > ul > li > ul.sub > li {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 1px !important;
+}
+.page-sidebar > ul > li > ul.sub > li > a {
+    color: #fff;
+    margin-left: 0px;
+    padding-left: 5px;
+}
+.page-sidebar > ul > li > ul.sub > li > a:hover {
+    background: #4b4b4b !important;
+	color: #fff !important;
+}
+
+.page-sidebar > ul > li > ul.sub > li.active > a, .page-sidebar > ul > li > ul.sub > li > a:hover {
+    color: #fff !important;
+    background: #4b4b4b !important;
+}
+
+.page-sidebar ul > li.active > a .arrow:before, .page-sidebar > ul > li.active > a .arrow.open:before {
+    color: #fff !important;
+}
+
+
+.page-sidebar > ul > li.active > a, page-sidebar > ul > li.active > a:hover {
+    background: #e02222 !important;
+  
+}
+
+.field_wrapper {
+	margin-top:5px;
+}
+.smptxt {
+	color: #0D638F !important;
+	font-weight:bold;
+}
+.smpbrd {
+	border-color: #0D638F !important;
+}
+.mr5 { margin-right: 5px !important; }
+.mr10 { margin-right: 10px !important; }
+.mr15 { margin-right: 15px !important; }
+.mr20 { margin-right: 20px !important; }
+.mr25 { margin-right: 25px !important; }
+.mr30 { margin-right: 30px !important; }
+.mr35 { margin-right: 35px !important; }
+.mr40 { margin-right: 40px !important; }
+.mr45 { margin-right: 45px !important; }
+.mr50 { margin-right: 50px !important; }
+.clrred{
+	color: red;
+}
+.clrblack{
+	color: black;
+}
+.clrblue{
+	color: blue;
+}
+.clrgreen{
+	color: green;
+}
+.clrbrown{
+	color: brown;
+}
+.clrorange{
+	color: orange;
+}
+.clrpurple{
+	color: purple;
+}
+.pointer {cursor: pointer !important;}
+
+table.dataTable thead {
+	background-color: #35aa47;
+	color:white;
+  }
+
+  .lb-sm {
+	font-size: 12px;
+  }
+  
+  .lb-md {
+	font-size: 16px;
+  }
+  
+  .lb-lg {
+	font-size: 27px;
+  }
+
+.right{
+	float:right !important;
+}
+.left{
+	float:left !important;
+}
+
+@media (max-width:979px) { 
+	.page-sidebar {
+		background: #3d3d3d !important;
+		color: #fff !important;
+	}
+	.page-sidebar.in {
+		border-top: 1px solid;
+	}
+	/*  .header .navbar-inner {
+	   height: 42px !important;
+	}
+	body {
+		background-color: #3d3d3d !important;
+	}
+	.fixed-top .page-container {
+		margin-top: 42px;
+	}
+
+	.page-sidebar > ul > li > a {
+		border-top: 1px solid #595959 !important;
+		color: #fff !important;
+	}
+	.page-sidebar > ul > li.active > a i {
+		color: #fff;
+	}
+	.page-sidebar > ul > li > ul > a:hover {
+		background: #4b4b4b !important;
+		color: #fff !important; 
+	}
+	.page-sidebar > ul > li.has-sub.open >a, .page-sidebar > ul > li >a:hover, .page-sidebar > ul > li:hover>a {
+		background: #313131 !important;
+	}
+	.page-sidebar > ul > li > ul.sub {
+		display: none;
+		list-style: none;
+		clear: both;
+		margin: 8px 0px 8px 0px;
+	}
+	.page-sidebar > ul > li > ul.sub > li {
+		background: none;
+		margin: 0px;
+		padding: 0px;
+		margin-top: 1px !important;
+	}
+	.page-sidebar > ul > li > ul.sub > li > a {
+		color: #fff;
+		margin-left: 0px;
+		padding-left: 5px;
+	}
+	.page-sidebar > ul > li > ul.sub > li > a:hover {
+		background: #4b4b4b !important;
+		color: #fff !important;
+	}*/
+}
+
+@media (max-width: 480px) {
+.page-sidebar.in {
+    border-top: 1px solid;
+}
+}
