@@ -243,7 +243,7 @@ exports.getApiSrhProducts=async(req,res)=>{
       input['name'] = req.body.name;
     }
     if(req.body.category!="" && req.body.category!=null){
-      input['category'] = req.body.category;
+      input['category'] = {$regex : new RegExp(req.body.category, "i")};
     }
     if(req.body.price!="" && req.body.price!=null){
       input['price'] = req.body.price;

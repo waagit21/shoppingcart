@@ -3,7 +3,10 @@ var Schema = mongoose.Schema;
 
 var basedata = new Schema({
   //_id: mongoose.Schema.Types.ObjectId,  
-  course_category: {type: Array},
+  categories: {type: Array},
+  countries: {type: Array},
+  currencies: {type: Array},
+  languages: {type: Array},
 }, {collection: 'basedata'});
 
 module.exports = mongoose.model('basedata', basedata);
