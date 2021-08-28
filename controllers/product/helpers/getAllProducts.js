@@ -27,7 +27,7 @@ exports.getAllProducts = function(req,res) {
 // exports.getAllProducts = (req,res) => products.find({}).sort({_id:-1}).lean().then(function(doc) {
 //   doc.forEach(item => { 
 //     item.creation_date = dateFormat(new Date(item.creation_date * 1000), "dd mmm, yyyy hh:MM:ss TT");
-//   }); 
+//   });
 //   return doc;
 // }).catch(function(err) {
 //   utils.logException(err,req,"getAllProducts.getAllProducts");

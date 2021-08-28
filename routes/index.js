@@ -106,7 +106,7 @@ router.get('/dashboard', async function(req, res, next) {
     products_count: products_count,
     orders_count: orders_count,
   };  
-  var que = await orders.insertOrder(req);
+  //var que = await orders.insertOrder(req);
   res.render('dashboard', { title: 'Dashboard', dashboard:true, custom:"dashboard", counts: counts});
 });
 
