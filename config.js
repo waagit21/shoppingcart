@@ -19,6 +19,7 @@ connectDB=async()=>{
       // await mongoose.connect(
       //   "mongodb://localhost:27017/shoppingcart",options
       // )
+      
       console.log("Mongo Connected");
     }catch(err){
       console.error('here is the error',err);
